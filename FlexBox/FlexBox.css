@@ -1,0 +1,42 @@
+
+html,body{
+    margin: 0;
+    height: 100%;
+}
+
+.header,.article,.aside,.nav,.footer{
+    padding: 1em;
+}
+.container{
+    height: 100%;
+    background-color: white;
+}
+
+.header{
+    height: 15%;
+    background-color: yellowgreen;
+}
+
+.sub-container{
+    height: 70%;
+    display: flex;
+}
+
+.article{
+    width: 50%;
+}
+
+.aside{
+    width: 25%;
+    background-color: beige;
+}
+
+.nav{
+    width: 25%;
+    background-color: #D7E8D4;
+}
+
+.footer{
+    height: 15%;
+    background-color: yellowgreen;
+}
